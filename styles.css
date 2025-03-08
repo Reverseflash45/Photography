@@ -66,12 +66,18 @@ h3 {
 }
 
 .nav {
-    text-align: center;
+    display: flex;
+    flex-direction: row; /* Ensure buttons are in a row */
+    justify-content: center; /* Center the buttons */
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
     margin-bottom: 20px;
 }
+
 .nav button {
-    padding: 10px 15px;
-    margin: 0 5px;
+    flex: 1; /* Allow buttons to grow and fill available space */
+    margin: 5px; /* Add margin for spacing */
+    min-width: 100px; /* Set a minimum width for buttons */
+    padding: 10px 15px; /* Adjust padding for mobile */
     cursor: pointer;
     background-color: #007BFF; /* Added background color */
     color: white; /* Added text color */
@@ -79,6 +85,7 @@ h3 {
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s; /* Smooth transition */
 }
+
 
 .nav button:hover {
     background-color: #0056b3; /* Darker background on hover */
@@ -112,6 +119,10 @@ footer {
 }
 
 @media (max-width: 480px) {
+    .nav button {
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+
     .photo {
         width: 100%; /* One photo per row on mobile devices */
     }
