@@ -8,12 +8,16 @@
 </head>
 <body>
 
-    <div class="nav">
-<button class="long-button" onclick="showPage('home')">Home</button>
 
+
+    <div class="nav">
+        <button class="long-button" onclick="showPage('home')">Home</button>
+    </div>
+    <div class="nav">
         <button onclick="showPage('portrait')">Portrait</button>
         <button onclick="showPage('landscape')">Landscape</button>
     </div>
+
 
     <div id="home" class="page active">
         <div class="bio">
@@ -34,56 +38,83 @@
         <div class="gallery">
             <div class="photo portrait">
                 <img src="PT (1).jpg" alt="Foto PT 1">
-                <div class="category">Portrait</div>
+                <div class="JF">A</div>
+                <div class="tag">perkotaan</div>
+                <div class="element">gelap</div>
             </div>
             <div class="photo portrait">
                 <img src="PT (2).jpg" alt="Foto PT 2">
-                <div class="category">Portrait</div>
+                <div class="JF">A</div>
+                <div class="tag">pedesaan</div>
+                <div class="element">gradasi</div>
             </div>
             <div class="photo portrait">
                 <img src="PT (3).jpg" alt="Foto PT 3">
-                <div class="category">Portrait</div>
+                <div class="JF">A</div>
+                <div class="tag">keramaian</div>
+                <div class="element">terang</div>
             </div>
             <div class="photo portrait">
                 <img src="PT (4).jpg" alt="Foto PT 4">
-                <div class="category">Portrait</div>
+                <div class="JF">A</div>
+                <div class="tag">perkotaan</div>
+                <div class="element">gelap</div>
             </div>
             <div class="photo portrait">
                 <img src="PT (5).jpg" alt="Foto PT 5">
-                <div class="category">Portrait</div>
+                <div class="JF">A</div>
+                <div class="tag">pedesaan</div>
+                <div class="element">gradasi</div>
             </div>
             <div class="photo portrait">
                 <img src="PT (6).jpg" alt="Foto PT 6">
-                <div class="category">Portrait</div>
+                <div class="JF">A</div>
+                <div class="tag">keramaian</div>
+                <div class="element">terang</div>
             </div>
             <div class="photo portrait">
                 <img src="PT (7).jpg" alt="Foto PT 7">
-                <div class="category">Portrait</div>
+                <div class="JF">A</div>
+                <div class="tag">perkotaan</div>
+                <div class="element">gelap</div>
             </div>
             <div class="photo portrait">
                 <img src="PT (8).jpg" alt="Foto PT 8">
-                <div class="category">Portrait</div>
+                <div class="JF">A</div>
+                <div class="tag">pedesaan</div>
+                <div class="element">gradasi</div>
             </div>
             <div class="photo portrait">
                 <img src="PT (9).jpg" alt="Foto PT 9">
-                <div class="category">Portrait</div>
+                <div class="JF">A</div>
+                <div class="tag">keramaian</div>
+                <div class="element">terang</div>
             </div>
             <div class="photo portrait">
                 <img src="PT (10).jpg" alt="Foto PT 10">
-                <div class="category">Portrait</div>
+                <div class="JF">A</div>
+                <div class="tag">perkotaan</div>
+                <div class="element">gelap</div>
             </div>
             <div class="photo portrait">
                 <img src="PT (11).jpg" alt="Foto PT 11">
-                <div class="category">Portrait</div>
+                <div class="JF">A</div>
+                <div class="tag">pedesaan</div>
+                <div class="element">gradasi</div>
             </div>
             <div class="photo portrait">
                 <img src="PT (12).jpg" alt="Foto PT 12">
-                <div class="category">Portrait</div>
+                <div class="JF">A</div>
+                <div class="tag">keramaian</div>
+                <div class="element">terang</div>
             </div>
             <div class="photo portrait">
                 <img src="PT (13).jpg" alt="Foto PT 13">
-                <div class="category">Portrait</div>
+                <div class="JF">A</div>
+                <div class="tag">perkotaan</div>
+                <div class="element">gelap</div>
             </div>
+
         </div>
     </div>
 
@@ -92,84 +123,124 @@
         <div class="gallery">
             <div class="photo">
                 <img src="LS (1).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Dark</div>
+                <div class="JF">A</div>
+                <div class="tag">gelap</div>
+                <div class="element">perkotaan</div>
             </div>
             <div class="photo">
                 <img src="LS (2).jpg" alt="Foto Dark 2">
-                <div class="category"></div>
+                <div class="JF">A</div>
+                <div class="tag">gradasi</div>
+                <div class="element">pedesaan</div>
             </div>
             <div class="photo">
                 <img src="LS (3).jpg" alt="Foto Bright 1">
-                <div class="category">Bright</div>
+                <div class="JF">A</div>
+                <div class="tag">terang</div>
+                <div class="element">keramaian</div>
             </div>
             <div class="photo">
                 <img src="LS (4).jpg" alt="Foto Bright 2">
-                <div class="category">Bright</div>
+                <div class="JF">A</div>
+                <div class="tag">perkotaan</div>
+                <div class="element">gelap</div>
             </div>
             <div class="photo">
                 <img src="LS (5).jpg" alt="Foto Gradation 1">
-                <div class="category">Gradation</div>
+                <div class="JF">A</div>
+                <div class="tag">pedesaan</div>
+                <div class="element">gradasi</div>
             </div>
             <div class="photo">
                 <img src="LS (6).jpg" alt="Foto Gradation 2">
-                <div class="category">Gradation</div>
+                <div class="JF">A</div>
+                <div class="tag">keramaian</div>
+                <div class="element">terang</div>
             </div>
             <!-- Replacing empty photo templates -->
             <div class="photo">
                 <img src="LS (7).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">gelap</div>
+                <div class="element">perkotaan</div>
             </div>
             <div class="photo">
                 <img src="LS (8).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">gradasi</div>
+                <div class="element">pedesaan</div>
             </div>
             <div class="photo">
                 <img src="LS (9).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">terang</div>
+                <div class="element">keramaian</div>
             </div>
             <div class="photo">
                 <img src="LS (10).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">perkotaan</div>
+                <div class="element">gelap</div>
             </div>
             <div class="photo">
                 <img src="LS (11).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">pedesaan</div>
+                <div class="element">gradasi</div>
             </div>
             <div class="photo">
                 <img src="LS (12).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">keramaian</div>
+                <div class="element">terang</div>
             </div>
             <div class="photo">
                 <img src="LS (13).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">gelap</div>
+                <div class="element">perkotaan</div>
             </div>
             <div class="photo">
                 <img src="LS (14).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">gradasi</div>
+                <div class="element">pedesaan</div>
             </div>
             <div class="photo">
                 <img src="LS (15).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">terang</div>
+                <div class="element">keramaian</div>
             </div>
             <div class="photo">
                 <img src="LS (16).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">perkotaan</div>
+                <div class="element">gelap</div>
             </div>
             <div class="photo">
                 <img src="LS (17).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">pedesaan</div>
+                <div class="element">gradasi</div>
             </div>
             <div class="photo">
                 <img src="LS (18).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">keramaian</div>
+                <div class="element">terang</div>
             </div>
             <div class="photo">
                 <img src="LS (19).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">gelap</div>
+                <div class="element">perkotaan</div>
             </div>
             <div class="photo">
                 <img src="LS (20).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+                <div class="JF">A</div>
+                <div class="tag">gradasi</div>
+                <div class="element">pedesaan</div>
             </div>
 
         </div>
