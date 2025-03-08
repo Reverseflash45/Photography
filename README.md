@@ -9,7 +9,8 @@
 <body>
 
     <div class="nav">
-        <button onclick="showPage('home')">Home</button>
+<button class="long-button" onclick="showPage('home')">Home</button>
+
         <button onclick="showPage('portrait')">Portrait</button>
         <button onclick="showPage('landscape')">Landscape</button>
     </div>
@@ -32,68 +33,62 @@
         <h2>Potrait</h2>
         <div class="gallery">
             <div class="photo portrait">
-                <img src="portrait_urban1.jpg" alt="Foto Urban 1">
-                <div class="category">Urban</div>
+                <img src="PT (1).jpg" alt="Foto PT 1">
+                <div class="category">Portrait</div>
             </div>
             <div class="photo portrait">
-                <img src="portrait_urban2.jpg" alt="Foto Urban 2">
-                <div class="category">Urban</div>
+                <img src="PT (2).jpg" alt="Foto PT 2">
+                <div class="category">Portrait</div>
             </div>
             <div class="photo portrait">
-                <img src="portrait_rural1.jpg" alt="Foto Rural 1">
-                <div class="category">Rural</div>
+                <img src="PT (3).jpg" alt="Foto PT 3">
+                <div class="category">Portrait</div>
             </div>
             <div class="photo portrait">
-                <img src="portrait_rural2.jpg" alt="Foto Rural 2">
-                <div class="category">Rural</div>
+                <img src="PT (4).jpg" alt="Foto PT 4">
+                <div class="category">Portrait</div>
             </div>
             <div class="photo portrait">
-                <img src="portrait_nature1.jpg" alt="Foto Nature 1">
-                <div class="category">Nature</div>
+                <img src="PT (5).jpg" alt="Foto PT 5">
+                <div class="category">Portrait</div>
             </div>
             <div class="photo portrait">
-                <img src="portrait_nature2.jpg" alt="Foto Nature 2">
-                <div class="category">Nature</div>
+                <img src="PT (6).jpg" alt="Foto PT 6">
+                <div class="category">Portrait</div>
             </div>
-
-            <!-- Replacing empty photo templates with portrait size -->
-            <div class="photo">
-                <img src="Potrait (1).jpg" alt="image" height="420" width="210" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+            <div class="photo portrait">
+                <img src="PT (7).jpg" alt="Foto PT 7">
+                <div class="category">Portrait</div>
             </div>
-            <div class="photo">
-                <img src="Potrait (1).jpg" alt="image" height="420" width="210" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+            <div class="photo portrait">
+                <img src="PT (8).jpg" alt="Foto PT 8">
+                <div class="category">Portrait</div>
             </div>
-            <div class="photo">
-                <img src="Potrait (1).jpg" alt="image" height="420" width="210" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+            <div class="photo portrait">
+                <img src="PT (9).jpg" alt="Foto PT 9">
+                <div class="category">Portrait</div>
             </div>
-            <div class="photo">
-                <img src="Potrait (1).jpg" alt="image" height="420" width="210" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+            <div class="photo portrait">
+                <img src="PT (10).jpg" alt="Foto PT 10">
+                <div class="category">Portrait</div>
             </div>
-            <div class="photo">
-                <img src="Potrait (1).jpg" alt="image" height="420" width="210" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+            <div class="photo portrait">
+                <img src="PT (11).jpg" alt="Foto PT 11">
+                <div class="category">Portrait</div>
             </div>
-            <div class="photo">
-                <img src="Potrait (1).jpg" alt="image" height="420" width="210" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+            <div class="photo portrait">
+                <img src="PT (12).jpg" alt="Foto PT 12">
+                <div class="category">Portrait</div>
             </div>
-            <div class="photo">
-                <img src="Potrait (1).jpg" alt="image" height="420" width="210" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
-            </div>
-            <div class="photo">
-                <img src="Potrait (1).jpg" alt="image" height="420" width="210" style="border-radius: 5px;"/>
-                <div class="category">Empty</div>
+            <div class="photo portrait">
+                <img src="PT (13).jpg" alt="Foto PT 13">
+                <div class="category">Portrait</div>
             </div>
         </div>
     </div>
 
     <div id="landscape" class="page">
-        <h2>Pemandangan</h2>
+        <h2>Landscape</h2>
         <div class="gallery">
             <div class="photo">
                 <img src="LS (1).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
