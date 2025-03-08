@@ -30,9 +30,16 @@ h1 {
 }
 
 .photo.portrait {
-    width: calc(25% - 20px); /* Increased width for portrait to fit larger boxes */
+    width: calc(50% - 20px); /* Adjusted width for portrait to fit better on tablets */
     flex: 0 0 auto; /* Ensure the photo does not shrink */
 }
+
+@media (max-width: 480px) {
+    .photo.portrait {
+        width: 100%; /* One photo per row on mobile devices */
+    }
+}
+
 
 .photo:hover {
     transform: scale(1.05); /* Scale up on hover */
@@ -68,9 +75,10 @@ h3 {
 .nav {
     display: flex;
     flex-direction: row; /* Ensure buttons are in a row */
-    justify-content: center; /* Center the buttons */
+    justify-content: space-around; /* Space buttons evenly */
     flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
     margin-bottom: 20px;
+    width: 100%; /* Ensure the nav takes full width */
 }
 
 .nav button {
@@ -85,7 +93,6 @@ h3 {
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s; /* Smooth transition */
 }
-
 
 .nav button:hover {
     background-color: #0056b3; /* Darker background on hover */
@@ -121,6 +128,7 @@ footer {
 @media (max-width: 480px) {
     .nav button {
         font-size: 14px; /* Adjust font size for better readability */
+        flex: 1 1 100%; /* Make buttons full width on mobile */
     }
 
     .photo {
