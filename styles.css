@@ -25,6 +25,8 @@ h1 {
     border-radius: 5px;
     overflow: hidden;
     width: calc(30% - 20px); /* Increased width for landscape to fit larger boxes */
+    flex: 0 0 auto; /* Ensure the photo does not shrink */
+
 
     /* max-width: 300px; */ /* Removed max width restriction for larger screens */
 
@@ -34,6 +36,8 @@ h1 {
 
 .photo.portrait {
     width: calc(25% - 20px); /* Increased width for portrait to fit larger boxes */
+    flex: 0 0 auto; /* Ensure the photo does not shrink */
+
 
 }
 
