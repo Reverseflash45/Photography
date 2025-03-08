@@ -5,8 +5,6 @@ body {
     padding: 20px;
 }
 
-
-
 h1 {
     text-align: center;
 }
@@ -27,9 +25,6 @@ h1 {
     width: calc(30% - 20px); /* Increased width for landscape to fit larger boxes */
     flex: 0 0 auto; /* Ensure the photo does not shrink */
 
-
-    /* max-width: 300px; */ /* Removed max width restriction for larger screens */
-
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s; /* Smooth scaling transition */
 }
@@ -37,13 +32,7 @@ h1 {
 .photo.portrait {
     width: calc(25% - 20px); /* Increased width for portrait to fit larger boxes */
     flex: 0 0 auto; /* Ensure the photo does not shrink */
-
-
 }
-
-
-
-
 
 .photo:hover {
     transform: scale(1.05); /* Scale up on hover */
@@ -62,7 +51,6 @@ h1 {
     border-radius: 5px; /* Added border radius */
     margin-top: 5px; /* Added margin for spacing */
     border: 1px solid #000001; /* Yellow border for Bright category */
-
 }
 
 h2 {
@@ -114,4 +102,17 @@ footer {
     margin: 0 auto;
     justify-content: center;
     display: flex;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .photo {
+        width: calc(50% - 20px); /* Two photos per row on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .photo {
+        width: 100%; /* One photo per row on mobile devices */
+    }
 }
