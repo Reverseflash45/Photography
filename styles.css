@@ -19,7 +19,7 @@ h1 {
     padding: 10px; /* Added padding for spacing */
     border-radius: 5px;
     overflow: hidden;
-    width: calc(20% - 20px); /* Adjusted width for portrait to fit 5 photos in a row on larger screens */
+    width: calc(23% - 20px); /* Adjusted width for portrait to fit 4 photos in a row on larger screens */
     flex: 0 0 auto; /* Ensure the photo does not shrink */
 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
