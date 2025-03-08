@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -30,30 +31,31 @@
     <div id="portrait" class="page">
         <h2>Potrait</h2>
         <div class="gallery">
-            <div class="photo">
+            <div class="photo portrait">
                 <img src="portrait_urban1.jpg" alt="Foto Urban 1">
                 <div class="category">Urban</div>
             </div>
-            <div class="photo">
+            <div class="photo portrait">
                 <img src="portrait_urban2.jpg" alt="Foto Urban 2">
                 <div class="category">Urban</div>
             </div>
-            <div class="photo">
+            <div class="photo portrait">
                 <img src="portrait_rural1.jpg" alt="Foto Rural 1">
                 <div class="category">Rural</div>
             </div>
-            <div class="photo">
+            <div class="photo portrait">
                 <img src="portrait_rural2.jpg" alt="Foto Rural 2">
                 <div class="category">Rural</div>
             </div>
-            <div class="photo">
+            <div class="photo portrait">
                 <img src="portrait_nature1.jpg" alt="Foto Nature 1">
                 <div class="category">Nature</div>
             </div>
-            <div class="photo">
+            <div class="photo portrait">
                 <img src="portrait_nature2.jpg" alt="Foto Nature 2">
                 <div class="category">Nature</div>
             </div>
+
             <!-- Replacing empty photo templates with portrait size -->
             <div class="photo">
                 <img src="Potrait (1).jpg" alt="image" height="420" width="210" style="border-radius: 5px;"/>
