@@ -1,3 +1,4 @@
+
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -133,6 +134,51 @@
                 <img src="LS (9).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
                 <div class="category">Empty</div>
             </div>
+            <div class="photo">
+                <img src="LS (10).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="LS (11).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="LS (12).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="LS (13).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="LS (14).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="LS (15).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="LS (16).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="LS (17).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="LS (18).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="LS (19).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="LS (20).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
+                <div class="category">Empty</div>
+            </div>
+
         </div>
     </div>
 
