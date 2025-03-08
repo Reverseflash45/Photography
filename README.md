@@ -1,15 +1,4 @@
 
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pameran Fotografi</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-    
-    <h1>Pameran Fotografi</h1>
 
     <div class="nav">
         <button onclick="showPage('home')">Home</button>
@@ -199,6 +188,3 @@
             selectedPage.classList.add('active');
         }
     </script>
-
-</body>
-</html>
