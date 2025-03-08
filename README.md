@@ -7,9 +7,6 @@
 </head>
 <body>
 
-    
-    <h1>Pameran Fotografi</h1>
-
     <div class="nav">
         <button onclick="showPage('home')">Home</button>
         <button onclick="showPage('portrait')">Portrait</button>
