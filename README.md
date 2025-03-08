@@ -1,104 +1,186 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    margin: 0;
-    padding: 20px;
-}
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pameran Fotografi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-h1 {
-    text-align: center;
-}
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.photo {
-    margin: 10px;
-    border: 3px solid #007BFF; /* Updated border thickness and color */
-    padding: 10px; /* Added padding for spacing */
-    border: 3px solid #000000; /* Updated border thickness and color */
-    padding: 10px; /* Added padding for spacing */
+    <h1>Pameran Fotografi</h1>
 
-    border-radius: 5px;
-    overflow: hidden;
-    width: 100%; /* Changed to 100% for responsiveness */
-    max-width: 300px; /* Set max width for larger screens */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s; /* Smooth scaling transition */
-}
+    <div class="nav">
+        <button onclick="showPage('home')">Home</button>
+        <button onclick="showPage('portrait')">Portrait</button>
+        <button onclick="showPage('landscape')">Landscape</button>
+    </div>
 
+    <div id="home" class="page active">
+        <div class="bio">
+            <h2>Biografi saya</h2>
+            <p>Selamat datang di pameran fotografi saya! Saya adalah seorang fotografer yang mencintai keindahan alam dan kehidupan kota. Melalui lensa saya, saya berusaha menangkap momen-momen yang unik dan indah.</p>
+            <h3>Perangkat yang Digunakan</h3>
+            <ul>
+                <li>Kamera: Canon EOS 90D</li>
+                <li>Objektif: 18-55mm f/3.5-5.6</li>
+                <li>Tripod: Manfrotto Befree</li>
+                <li>Software Editing: Adobe Lightroom</li>
+            </ul>
+            <img src="gelap1.jpg" alt="Foto Gelap 1">
+        </div>
+    </div>
 
+    <div id="portrait" class="page">
+        <h2>Potrait</h2>
+        <div class="gallery">
+            <div class="photo">
+                <img src="portrait_urban1.jpg" alt="Foto Urban 1">
+                <div class="category">Urban</div>
+            </div>
+            <div class="photo">
+                <img src="portrait_urban2.jpg" alt="Foto Urban 2">
+                <div class="category">Urban</div>
+            </div>
+            <div class="photo">
+                <img src="portrait_rural1.jpg" alt="Foto Rural 1">
+                <div class="category">Rural</div>
+            </div>
+            <div class="photo">
+                <img src="portrait_rural2.jpg" alt="Foto Rural 2">
+                <div class="category">Rural</div>
+            </div>
+            <div class="photo">
+                <img src="portrait_nature1.jpg" alt="Foto Nature 1">
+                <div class="category">Nature</div>
+            </div>
+            <div class="photo">
+                <img src="portrait_nature2.jpg" alt="Foto Nature 2">
+                <div class="category">Nature</div>
+            </div>
+            <!-- Adding empty photo templates -->
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+        </div>
+    </div>
 
+    <div id="landscape" class="page">
+        <h2>Pemandangan</h2>
+        <div class="gallery">
+            <div class="photo">
+                <img src="pemandanganFT (21).jpg" alt="image" height="210" width="420" style="border-radius: 5px;"/>
+                <div class="category">Dark</div>
+            </div>
+            <div class="photo">
+                <img src="landscape_dark2.jpg" alt="Foto Dark 2">
+                <div class="category">Dark</div>
+            </div>
+            <div class="photo">
+                <img src="landscape_bright1.jpg" alt="Foto Bright 1">
+                <div class="category">Bright</div>
+            </div>
+            <div class="photo">
+                <img src="landscape_bright2.jpg" alt="Foto Bright 2">
+                <div class="category">Bright</div>
+            </div>
+            <div class="photo">
+                <img src="landscape_gradation1.jpg" alt="Foto Gradation 1">
+                <div class="category">Gradation</div>
+            </div>
+            <div class="photo">
+                <img src="landscape_gradation2.jpg" alt="Foto Gradation 2">
+                <div class="category">Gradation</div>
+            </div>
+            <!-- Adding empty photo templates -->
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+            <div class="photo">
+                <img src="placeholder.jpg" alt="Placeholder">
+                <div class="category">Empty</div>
+            </div>
+        </div>
+    </div>
 
-.photo:hover {
-    transform: scale(1.05); /* Scale up on hover */
-}
+    <footer style="background-color: #f4f4f4; color: #333; padding: 20px; text-align: center; position: relative; margin-top: 20px;">
+    <p style="margin: 0;">&copy; 2024 Web page Kurosaki Rafi Yeager. All rights reserved.</p>
+    </footer>
 
-.photo img {
-    width: 100%;
-    height: auto;
-}
-.category {
-    text-align: center;
-    padding: 10px;
-    background-color: #fff;
-    font-weight: bold; /* Added bold text */
-    color: #333; /* Changed text color */
-    border-radius: 5px; /* Added border radius */
-    margin-top: 5px; /* Added margin for spacing */
-    border: 1px solid #000001; /* Yellow border for Bright category */
+    <script>
+        function showPage(category) {
+            // Sembunyikan semua halaman
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => {
+                page.classList.remove('active');
+            });
 
-}
+            // Tampilkan halaman yang dipilih
+            const selectedPage = document.getElementById(category);
+            selectedPage.classList.add('active');
+        }
+    </script>
 
-h2 {
-    color: #007BFF; /* Added color for h2 elements */
-    text-align: center; /* Centered h2 elements */
-    margin-top: 20px; /* Added margin for spacing */
-}
-
-h3 {
-    color: #555; /* Changed color for h3 elements */
-    text-align: center; /* Centered h3 elements */
-    margin-top: 15px; /* Added margin for spacing */
-}
-
-.nav {
-    text-align: center;
-    margin-bottom: 20px;
-}
-.nav button {
-    padding: 10px 15px;
-    margin: 0 5px;
-    cursor: pointer;
-    background-color: #007BFF; /* Added background color */
-    color: white; /* Added text color */
-    border: none; /* Removed border */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth transition */
-}
-
-.nav button:hover {
-    background-color: #0056b3; /* Darker background on hover */
-}
-
-.page {
-    display: none;
-}
-.active {
-    display: block;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-    display: flex;
-}
-
+</body>
+</html>
