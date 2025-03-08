@@ -8,11 +8,13 @@ body {
 h1 {
     text-align: center;
 }
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .photo {
     margin: 10px;
     border: 3px solid #007BFF; /* Updated border thickness and color */
@@ -21,7 +23,6 @@ h1 {
     overflow: hidden;
     width: calc(23% - 20px); /* Adjusted width for portrait to fit 4 photos in a row on larger screens */
     flex: 0 0 auto; /* Ensure the photo does not shrink */
-
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s; /* Smooth scaling transition */
 }
@@ -34,7 +35,8 @@ h1 {
     width: 100%;
     height: auto;
 }
-.category {
+
+.JF {
     text-align: center;
     padding: 10px;
     background-color: #fff;
@@ -42,8 +44,40 @@ h1 {
     color: #333; /* Changed text color */
     border-radius: 5px; /* Added border radius */
     margin-top: 5px; /* Added margin for spacing */
-    border: 1px solid #000001; /* Yellow border for Bright category */
 }
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    font-size: 14px;
+    text-align: left; /* Align tag to the left */
+}
+
+.element {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    font-size: 14px;
+    text-align: right; /* Align element to the right */
+}
+
+.ambiance {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #e0e0e0; /* Example ambiance color */
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
 
 h2 {
     color: #007BFF; /* Added color for h2 elements */
@@ -86,6 +120,7 @@ h3 {
 .page {
     display: none;
 }
+
 .active {
     display: block;
 }
