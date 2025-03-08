@@ -24,14 +24,16 @@ h1 {
 
     border-radius: 5px;
     overflow: hidden;
-    width: calc(25% - 20px); /* Set width for landscape to fit 4 photos per row */
+    width: calc(30% - 20px); /* Increased width for landscape to fit larger boxes */
+
     max-width: 300px; /* Set max width for larger screens */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s; /* Smooth scaling transition */
 }
 
 .photo.portrait {
-    width: calc(20% - 20px); /* Set width for portrait to fit 5 photos per row */
+    width: calc(25% - 20px); /* Increased width for portrait to fit larger boxes */
+
 }
 
 
