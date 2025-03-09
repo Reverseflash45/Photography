@@ -21,24 +21,29 @@
         <div class="bio">
             <h2>About Me</h2>
             <p style="text-indent: 45px;">Hello!! Welcome to my photo exhibition! My name is Rafi Fernandito Setiawan, I am a photographer as a hobby. I am currently studying at unair majoring in informatics engineering. So this website is a website that I use to practice making websites as well as to exhibit my photos.</p>
-            <p><ul><b><u><br>Biodata</u>
-                <li>Name: Rafi Fernandito Setiawan</li>
-                <li>Gender: Male</li>
-                <li>University: UNAIR</li></ul></p>
+            
             <ul>
-                <b><u>Equipment Used</b></u>
-                <li>Camera: Canon EOS 550D</li>
-                <li>Smartphone: Infinix GT 20 Pro</li>
-                <li>Editing Software: Adobe Lightroom</li>
+                <u><b>Biodata</b></u>
+                <br>Name: Rafi Fernandito Setiawan
+                <br>Gender: Male
+                <br>University: UNAIR
             </ul>
+
             <ul>
-                <b><u>Contact</b></u>
-                <li>Email: rffernanditoo@gmail.com</li>
-                <li>No Telp: 087704521979</li>
-                <li>No Whatsapp:62+ 87704521979</li>
-                <li>Instagram: @Raffstw</li>
-                <li>Github: Reverseflash45 </li>
-                <li>Linkedin: https://www.linkedin.com/in/rafi-fernandito-setiawan-683b30307/ </li>
+                <u><b>Equipment Used</b></u>
+                <br>Camera: Canon EOS 550D
+                <br>Smartphone: Infinix GT 20 Pro
+                <br>Editing Software: Adobe Lightroom
+            </ul>
+
+            <ul>
+                <u><b>Contact</b></u>
+                <br>Email: rffernanditoo@gmail.com
+                <br>No Telp: 087704521979<
+                <br>No Whatsapp:62+ 87704521979
+                <br>Instagram: @Raffstw
+                <br>Github: Reverseflash45
+                <br>Linkedin: https://www.linkedin.com/in/rafi-fernandito-setiawan-683b30307/
             </ul>
         </div>
     </div>
