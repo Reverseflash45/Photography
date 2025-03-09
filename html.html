@@ -22,22 +22,30 @@
             <h2>About Me</h2>
 
             
-            <h3>Mini Description</h3>
+
             <p style="text-indent: 45px;">Hello!! Welcome to my photo exhibition! My name is Rafi Fernandito Setiawan, I am a photographer as a hobby. I am currently studying at unair majoring in informatics engineering. So this website is a website that I use to practice making websites as well as to exhibit my photos.</p>
             
-            <h3>Biodata</h3>
-            <ul>
+            <p><ul><b><u><br>Biodata</b></u>
                 <li>Name: Rafi Fernandito Setiawan</li>
                 <li>Gender: Male</li>
                 <li>University: UNAIR</li>
-            </ul>
-
-
-            <h3>Equipment Used</h3>
+            </ul></p>
+            
             <ul>
+                <b><u>Equipment Used</b></u>
                 <li>Camera: Canon EOS 550D</li>
                 <li>Smartphone: Infinix GT 20 Pro</li>
                 <li>Editing Software: Adobe Lightroom</li>
+            </ul>
+
+            <ul>
+                <b><u>Contact</b></u>
+                <li>Email: rffernanditoo@gmail.com</li>
+                <li>No Telp: 087704521979</li>
+                <li>No Whatsapp:62+ 87704521979</li>
+                <li>Instagram: @Raffstw</li>
+                <li>Github: Reverseflash45 </li>
+                <li>Linkedin: https://www.linkedin.com/in/rafi-fernandito-setiawan-683b30307/ </li>
             </ul>
         </div>
     </div>
