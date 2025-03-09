@@ -25,11 +25,11 @@
 
             <p style="text-indent: 45px;">Hello!! Welcome to my photo exhibition! My name is Rafi Fernandito Setiawan, I am a photographer as a hobby. I am currently studying at unair majoring in informatics engineering. So this website is a website that I use to practice making websites as well as to exhibit my photos.</p>
             
-            <p><ul><b><u><br>Biodata</b></u>
+            <p><ul><b><u><br>Biodata</u>
                 <li>Name: Rafi Fernandito Setiawan</li>
                 <li>Gender: Male</li>
-                <li>University: UNAIR</li>
-            </ul></p>
+                <li>University: UNAIR</li></ul></p>
+            
             
             <ul>
                 <b><u>Equipment Used</b></u>
@@ -39,7 +39,7 @@
             </ul>
 
             <ul>
-                <b><u>Contact</b></u>
+                <b><u>Contact</u>
                 <li>Email: rffernanditoo@gmail.com</li>
                 <li>No Telp: 087704521979</li>
                 <li>No Whatsapp:62+ 87704521979</li>
@@ -47,7 +47,6 @@
                 <li>Github: Reverseflash45 </li>
                 <li>Linkedin: https://www.linkedin.com/in/rafi-fernandito-setiawan-683b30307/ </li>
             </ul>
-        </div>
     </div>
 
     <div id="portrait" class="page">
