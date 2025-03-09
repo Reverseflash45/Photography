@@ -20,33 +20,27 @@
     <div id="home" class="page active">
         <div class="bio">
             <h2>About Me</h2>
-
-            
-
             <p style="text-indent: 45px;">Hello!! Welcome to my photo exhibition! My name is Rafi Fernandito Setiawan, I am a photographer as a hobby. I am currently studying at unair majoring in informatics engineering. So this website is a website that I use to practice making websites as well as to exhibit my photos.</p>
-            
-                <p><ul><b><u><br>
-                Biodata</u>
+            <p><ul><b><u><br>Biodata</u>
                 <li>Name: Rafi Fernandito Setiawan</li>
                 <li>Gender: Male</li>
                 <li>University: UNAIR</li></ul></p>
-            
-            
-                <p><ul><b><u><br>
+            <ul>
                 <b><u>Equipment Used</b></u>
                 <li>Camera: Canon EOS 550D</li>
                 <li>Smartphone: Infinix GT 20 Pro</li>
-                <li>Editing Software: Adobe Lightroom</li></ul></p>
-
-                <p><ul><b><u><br>
-                <b><u>Contact</u>
+                <li>Editing Software: Adobe Lightroom</li>
+            </ul>
+            <ul>
+                <b><u>Contact</b></u>
                 <li>Email: rffernanditoo@gmail.com</li>
                 <li>No Telp: 087704521979</li>
                 <li>No Whatsapp:62+ 87704521979</li>
                 <li>Instagram: @Raffstw</li>
                 <li>Github: Reverseflash45 </li>
                 <li>Linkedin: https://www.linkedin.com/in/rafi-fernandito-setiawan-683b30307/ </li>
-            </ul></p>
+            </ul>
+        </div>
     </div>
 
     <div id="portrait" class="page">
@@ -130,7 +124,6 @@
                 <div class="tag" onclick="selectItem('Object')">Object</div>
                 <div class="element" onclick="selectItem('Dark')">Dark</div>
             </div>
-
         </div>
     </div>
 
@@ -173,7 +166,6 @@
                 <div class="tag" onclick="selectItem('Sky')">Sky</div>
                 <div class="element" onclick="selectItem('Bright')">Bright</div>
             </div>
-            <!-- Replacing empty photo templates -->
             <div class="photo">
                 <img src="LS (7).jpg" alt="Dark Landscape" height="210" width="420" style="border-radius: 5px;"/>
                 <div class="JF">The Sky of the Shady Beach</div>
@@ -258,7 +250,6 @@
                 <div class="tag" onclick="selectItem('Object')">Object</div>
                 <div class="element" onclick="selectItem('Dark')">Dark</div>
             </div>
-
         </div>
     </div>
 
@@ -274,13 +265,13 @@
         }
 
         function showPage(category) {
-            // Sembunyikan semua halaman
+            // Hide all pages
             const pages = document.querySelectorAll('.page');
             pages.forEach(page => {
                 page.classList.remove('active');
             });
 
-            // Tampilkan halaman yang dipilih
+            // Show the selected page
             const selectedPage = document.getElementById(category);
             selectedPage.classList.add('active');
         }
