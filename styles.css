@@ -102,15 +102,22 @@ h3 {
 
 .nav button {
     flex: 1; /* Allow buttons to grow and fill available space */
-    margin: 5px; /* Add margin for spacing */
-    min-width: 100px; /* Set a minimum width for buttons */
-    padding: 10px 15px; /* Adjust padding for mobile */
+    margin: 10px; /* Increased margin for better spacing */
+    min-width: 120px; /* Set a minimum width for buttons */
+    padding: 12px 20px; /* Adjusted padding for better appearance */
     cursor: pointer;
-    background-color: #007BFF; /* Added background color */
-    color: white; /* Added text color */
+    background: linear-gradient(90deg, #007BFF, #0056b3); /* Gradient background color */
+    color: white; /* Text color */
     border: none; /* Removed border */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth transition */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.nav button:hover {
+    background-color: #0056b3; /* Darker background on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+
 }
 
 .nav button:hover {
@@ -130,12 +137,13 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
+    position: relative; /* Changed to relative */
     width: 100%;
-    margin: 0 auto;
+    margin: 20px 0 0 0; /* Added margin to separate from body */
     justify-content: center;
     display: flex;
+    border-top: 2px solid #ccc; /* Added top border for separation */
+
 }
 
 /* Media Queries for Responsive Design */
